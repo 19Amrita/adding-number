@@ -1,0 +1,25 @@
+*{
+  box-sizing: border-box;
+  margin:0 ;
+  padding: 0;
+ 
+}
+div{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(23, 153, 153);
+}
+button{
+  padding: 15px 20px;
+  background: darkmagenta;
+  color: white;
+  border: 2px solid #ffffff;
+  outline: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
